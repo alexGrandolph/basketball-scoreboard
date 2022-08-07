@@ -10,3 +10,16 @@ function addTwoHomeScore() {
   updatedHomeCount += 2
   homeScore.textContent = updatedHomeCount
 }
+
+function addThreeHomeScore() {
+  updatedHomeCount += 3
+  homeScore.textContent = updatedHomeCount
+}
+
+function subOneHomeScore() {
+  updatedHomeCount -= 1
+  if (updatedHomeCount < 0) {
+    updatedHomeCount = 0
+  }
+  homeScore.textContent = updatedHomeCount
+}
