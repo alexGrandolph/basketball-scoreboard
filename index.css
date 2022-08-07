@@ -141,3 +141,20 @@ h2 {
   }
 
 }
+.reset-game {
+  padding-top: 13em;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 1.5rem;
+}
+
+.reset-button {
+    border: 0;
+    padding: 0.5625em;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-family: "Cursed Timer ULiL", sans-serif;
+}

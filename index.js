@@ -49,3 +49,13 @@ function subOneGuestScore() {
   }
   guestScore.textContent = updatedGuestCount
 }
+
+//reset button
+
+function resetGame() {
+  updatedGuestCount = 0
+  updatedHomeCount = 0
+  guestScore.textContent = updatedGuestCount
+  homeScore.textContent = updatedHomeCount
+
+}
