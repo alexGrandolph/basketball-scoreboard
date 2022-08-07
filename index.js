@@ -23,3 +23,29 @@ function subOneHomeScore() {
   }
   homeScore.textContent = updatedHomeCount
 }
+// GUEST BUTTONS
+let guestScore = document.getElementById("guest-score")
+let updatedGuestCount = 0
+
+function addOneGuestScore() {
+  updatedGuestCount += 1
+  guestScore.textContent = updatedGuestCount
+}
+
+function addTwoGuestScore() {
+  updatedGuestCount += 2
+  guestScore.textContent = updatedGuestCount
+}
+
+function addThreeGuestScore() {
+  updatedGuestCount += 3
+  guestScore.textContent = updatedGuestCount
+}
+
+function subOneGuestScore() {
+  updatedGuestCount -= 1
+  if (updatedGuestCount < 0) {
+    updatedGuestCount = 0
+  }
+  guestScore.textContent = updatedGuestCount
+}
