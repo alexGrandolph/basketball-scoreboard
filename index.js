@@ -51,8 +51,12 @@ function subOneGuestScore() {
 }
 
 //reset button
+let previousScores = document.getElementById("previous-scores")
 
 function resetGame() {
+  let scoreToSave = ` Home: ${updatedHomeCount} Away: ${updatedGuestCount} ||  `
+  // let scoreToSave = "Home " + updatedHomeCount + " " + "Away: " + updatedGuestCount + ", "
+  previousScores.textContent += scoreToSave
   updatedGuestCount = 0
   updatedHomeCount = 0
   guestScore.textContent = updatedGuestCount

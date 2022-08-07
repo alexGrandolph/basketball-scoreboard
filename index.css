@@ -158,3 +158,12 @@ h2 {
     font-size: 0.9rem;
     font-family: "Cursed Timer ULiL", sans-serif;
 }
+.footer {
+  /* padding-top: 33em; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  /* Footer height */
+  padding-right: 15rem;
+}
