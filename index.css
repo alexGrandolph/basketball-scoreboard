@@ -97,3 +97,46 @@ h2 {
   color: var(--text);
   padding-top: 0.18em;
 }
+
+/* === Buttons === */
+
+.buttons {
+  display: flex;
+  gap: 0.4em;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.plusone-btn,
+.plustwo-btn,
+.plusthree-btn,
+.reset-btn {
+  border: 0;
+  padding: 0.5625em;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+
+.reset-btn {
+  letter-spacing: 0.125em;
+}
+
+.buttons>button:active {
+  transform: scale(0.96);
+}
+
+/* === Media Queries === */
+
+@media (max-width: 667px) {
+
+  .container {
+    margin: 5em;
+  }
+
+}
