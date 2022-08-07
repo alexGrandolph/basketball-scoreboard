@@ -26,14 +26,14 @@ html {
 /* === Fonts === */
 
 @font-face {
-  font-family: "Cursed Timer ULiL", sans-serif;
-  src: url(Fonts/CursedTimer.ttf);
+  font-family: 'Oxanium', cursive;  
+  src: url(Fonts/Oxanium-VariableFont_wght.ttf);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Verdana", sans-serif;
+  font-family: 'Oxanium', cursive;
   src: url(Fonts/Verdana.ttf);
   font-weight: 700;
   font-style: normal;
@@ -50,7 +50,7 @@ body {
 /* === Heading === */
 
 .heading {
-  font-family: "Verdana", sans-serif;
+  font-family: 'Oxanium', cursive;
   color: var(--heading);
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -76,7 +76,7 @@ body {
 }
 
 h3 {
-  font-family: "Verdana", sans-serif;
+  font-family: 'Oxanium', cursive;
   font-size: 2.5rem;
 }
 
@@ -88,10 +88,11 @@ h3 {
   background-color: var(--scoreboard);
   margin: 1.25em auto;
   border-radius: 5px;
+  
 }
 
 h2 {
-  font-family: "Cursed Timer ULiL", sans-serif;
+  font-family: 'Oxanium', cursive;
   font-size: 5.625rem;
   text-align: center;
   color: var(--text);
@@ -122,6 +123,7 @@ h2 {
   border-radius: 5px;
   font-size: 0.9rem;
   font-family: "Cursed Timer ULiL", sans-serif;
+  font-family: 'Oxanium', cursive;
 }
 
 .reset-btn {
@@ -143,8 +145,7 @@ h2 {
 }
 .reset-game {
   padding-top: 13em;
-  font-family: "Cursed Timer ULiL", sans-serif;
-  font-size: 1.5rem;
+  font-family: 'Oxanium', cursive;  font-size: 1.5rem;
 }
 
 .reset-button {
@@ -156,7 +157,7 @@ h2 {
     border: 2px solid var(--primary);
     border-radius: 5px;
     font-size: 0.9rem;
-    font-family: "Cursed Timer ULiL", sans-serif;
+    font-family: 'Oxanium', cursive;
 }
 .footer {
   /* padding-top: 33em; */
@@ -165,5 +166,6 @@ h2 {
   width: 100%;
   height: 2.5rem;
   /* Footer height */
-  padding-right: 15rem;
+  padding-right: 25rem;
+  font-family: 'Oxanium', cursive;
 }
